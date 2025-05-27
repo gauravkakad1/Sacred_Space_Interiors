@@ -405,14 +405,19 @@ body {
   #HERO
 \*-----------------------------------*/
 
+
+
 .hero {
-  background-image: url("../images/hero-bg-bottom.png"),
+  background-image:
+    url("../images/hero-bg-bottom.png"),
     url("../images/hero-bg.png"),
-    url("../images/p2.jpg");
-  /* var(--gradient-1); */
-  background-repeat: no-repeat, no-repeat, no-repeat;
-  background-position: -280px bottom, center, center;
-  background-size: auto, cover, auto;
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    /* overlay */
+    url("../images/hero.jpg");
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: -280px bottom, center, center, center;
+  background-size: auto, cover, cover, cover;
+
   padding-block-start: 120px;
   padding-block-end: var(--section-padding);
 }
@@ -1693,6 +1698,11 @@ body {
     grid-column: auto;
   }
 
+}
 
+@media (min-width: 1440px) {
+  .hero {
+    background-size: cover, cover, cover, cover;
 
+  }
 }
