@@ -10,7 +10,7 @@
   <!-- 
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="shortcut icon" href="./assets/images/logo_png_white.svg" type="image/svg+xml">
 
   <!-- 
     - custom css link
@@ -22,9 +22,12 @@
   -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://static.elfsight.com/platform/platform.js" async></script>
+  <!-- <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
     rel="stylesheet">
+
 </head>
 
 <body id="top">
@@ -37,15 +40,19 @@
     <div class="container">
 
       <div class="overlay" data-overlay></div>
+      <img src="./assets/images/logo_name_png.png" width="250" loading="lazy" alt="Sacred Space Interiors Logo"
+        class="header-logo">
 
-      <a href="#">
-        <h1 class="logo">Desinic</h1>
-      </a>
+
+      <!-- <a href="#">
+        <h1 class="logo">Sacred Space Interiors</h1>
+      </a> -->
 
       <nav class="navbar" data-navbar>
 
         <div class="navbar-top">
-          <a href="#" class="logo">Desinic</a>
+          <a href="#" class="logo">Sacred Space Interiors
+          </a>
 
           <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
             <ion-icon name="close-outline"></ion-icon>
@@ -71,21 +78,22 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#blog" class="navbar-link" data-navbar-link>Blog</a>
+            <a href="#testimonials" class="navbar-link" data-navbar-link>Testimonials</a>
           </li>
 
           <li class="navbar-item">
-            <a href="#" class="navbar-link" data-navbar-link>Contact Us</a>
+            <a href="#gallery" class="navbar-link" data-navbar-link>Gallery</a>
           </li>
 
         </ul>
 
       </nav>
 
-      <a href="#" class="btn">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSe01BSQ7j0nUjvkXMLeUK4fm-7x4Cu-pLsVpoM7vXp6eafjBw/viewform"
+        class="btn">
         <ion-icon name="chevron-forward-outline" aria-hidden="true"></ion-icon>
 
-        <span>Get A Quote</span>
+        <span>Request a Free Consultation</span>
       </a>
 
       <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
@@ -111,16 +119,16 @@
 
           <div class="hero-content">
 
-            <p class="hero-subtitle">We Are Product Designer From UK</p>
+            <p class="hero-subtitle">CREATIVE INTERIOR DESIGNER</p>
 
-            <h2 class="h2 hero-title">We Design Interfaces That Users Love</h2>
+            <h2 class="h2 hero-title">We Create Spaces That Reflect Your Story</h2>
 
             <p class="hero-text">
-              Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac
-              at purus.
+              From cozy homes to elegant office spaces, we bring your vision to life with design that balances beauty,
+              comfort, and functionality.
             </p>
 
-            <button class="btn">Learn More</button>
+            <button class="btn">Explore Our Work</button>
 
           </div>
 
@@ -150,42 +158,79 @@
 
           <div class="about-content">
 
-            <h2 class="h2 section-title underline">Why Our Agency</h2>
+            <h2 class="h2 section-title underline">Why Choose SacredSpace Interiors</h2>
 
             <p class="about-text">
-              In dictum aliquam turpis lacinia iaculis. Fusce vel malesuada magna. Nulla vel maximus risus. Donec
-              volutpat metus
-              lacinia risus accumsan, ac bibendum libero efficitur. Pellentesque nec nisi sit amet magna tempus
-              hendrerit ut a odio.
+              At SacredSpace Interiors, we believe your space should tell your story. With a perfect blend of
+              creativity, functionality, and modern aesthetics, we craft interiors that reflect your personality and
+              lifestyle.
             </p>
 
             <p class="about-text">
-              Praesent rhoncus commodo tortor, id pulvinar nisl blandit at. Nulla facilisi. Quisque turpis ante,
-              vehicula condimentum
-              arcu.
+              Whether it’s a home renovation or a commercial project, our expert team ensures every detail is
+              thoughtfully designed and executed with excellence.
             </p>
-
+            <!-- 
             <ul class="stats-list">
 
               <li class="stats-card">
-                <p class="h3 stats-title">9875</p>
+                <p class="h3 stats-title">15</p>
 
                 <p class="stats-text">Satisfied Clients</p>
               </li>
 
               <li class="stats-card">
-                <p class="h3 stats-title">7894</p>
+                <p class="h3 stats-title">20</p>
 
                 <p class="stats-text">Project Lunched</p>
               </li>
 
               <li class="stats-card">
-                <p class="h3 stats-title">65</p>
+                <p class="h3 stats-title">2</p>
 
                 <p class="stats-text">Years Completed</p>
               </li>
 
+            </ul> -->
+
+
+            <ul class="about-list">
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="color-palette-outline"></ion-icon>
+
+                </div>
+                <p class="about-item-text">Creative Interior Visualizations</p>
+
+              </li>
+
+              <li class="about-item">
+                <!-- <li class="about-item"> -->
+                <div class="about-item-icon">
+                  <ion-icon name="sparkles-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">Tailored Design Approach</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="construct-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text"> Expertise in Modern Tools</p>
+              </li>
+
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="trail-sign-outline"></ion-icon>
+                </div>
+
+                <p class="about-item-text">End-to-End Design Support</p>
+              </li>
+
             </ul>
+
 
           </div>
 
@@ -197,29 +242,31 @@
 
 
       <!-- 
-        - #SERVICE
-      -->
-
+  - #SERVICE
+-->
       <section class="section service" id="services">
         <div class="container">
 
-          <h2 class="h2 section-title underline">Our Speciallization</h2>
+          <h2 class="h2 section-title underline">Our Services</h2>
 
           <ul class="service-list">
 
+            <!-- 1. Residential Design & Turnkey Solutions -->
             <li>
               <div class="service-card">
 
                 <div class="card-icon">
-                  <ion-icon name="telescope-outline"></ion-icon>
+                  <ion-icon name="home-outline"></ion-icon>
                 </div>
 
-                <h3 class="h3 title">Strategy & Research</h3>
+                <h3 class="h3 title">Residential Design & Turnkey Solutions</h3>
 
                 <p class="text">
-                  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
-                  suscipit, enim ex
-                  venenatis ipsum, et porttitor.
+                  From space planning and custom wardrobes to full-scale turnkey interiors, we take care of
+                  everything—design, sourcing, and execution—tailored to your lifestyle.
+                  <br><br>
+                  <strong>Includes:</strong> Complete Residential Interior Design, Turnkey Solutions, Modular Kitchens &
+                  Wardrobes.
                 </p>
 
                 <button class="card-btn" aria-label="Show More">
@@ -229,19 +276,21 @@
               </div>
             </li>
 
+            <!-- 2. 3D Visualization & Mood Boards -->
             <li>
               <div class="service-card">
 
                 <div class="card-icon">
-                  <ion-icon name="desktop-outline"></ion-icon>
+                  <ion-icon name="cube-outline"></ion-icon>
                 </div>
 
-                <h3 class="h3 title">Web Development</h3>
+                <h3 class="h3 title">3D Visualization & Mood Boards</h3>
 
                 <p class="text">
-                  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
-                  suscipit, enim ex
-                  venenatis ipsum, et porttitor.
+                  Experience your future space before execution with high-quality 3D renders and curated mood boards for
+                  a clear, confident design journey.
+                  <br><br>
+                  <strong>Includes:</strong> 3D Visualizations, Concept Mood Boards, Walkthrough Presentations.
                 </p>
 
                 <button class="card-btn" aria-label="Show More">
@@ -251,19 +300,21 @@
               </div>
             </li>
 
+            <!-- 3. Furniture, Decor & Styling -->
             <li>
               <div class="service-card">
 
                 <div class="card-icon">
-                  <ion-icon name="globe-outline"></ion-icon>
+                  <ion-icon name="color-palette-outline"></ion-icon>
                 </div>
 
-                <h3 class="h3 title">Web Solution</h3>
+                <h3 class="h3 title">Furniture, Decor & Styling</h3>
 
                 <p class="text">
-                  Mauris ut felis malesuada eros varius tristique a at orci. Nulla vulputate, leo sit amet rhoncus
-                  suscipit, enim ex
-                  venenatis ipsum, et porttitor.
+                  We handpick furniture, lighting, and décor to match your style and elevate your space, blending
+                  aesthetics with comfort and functionality.
+                  <br><br>
+                  <strong>Includes:</strong> Furniture Selection, Decor Placement, Lighting Design, Styling Concepts.
                 </p>
 
                 <button class="card-btn" aria-label="Show More">
@@ -277,6 +328,8 @@
 
         </div>
       </section>
+
+
 
 
 
@@ -295,37 +348,31 @@
 
             <li>
               <div class="features-card">
-
                 <div class="icon">
                   <ion-icon name="bulb-outline"></ion-icon>
                 </div>
-
                 <div class="content">
-                  <h3 class="h3 title">Idea & Analysis</h3>
-
+                  <h3 class="h3 title">Space Planning & Research</h3>
                   <p class="text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
+                    We carefully analyze your space to craft intelligent layouts that balance form and function,
+                    ensuring every inch of your home or office is used wisely.
                   </p>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="features-card">
-
                 <div class="icon">
-                  <ion-icon name="color-palette-outline"></ion-icon>
+                  <ion-icon name="cube-outline"></ion-icon>
                 </div>
-
                 <div class="content">
-                  <h3 class="h3 title">Designing</h3>
-
+                  <h3 class="h3 title">3D Visualization & Designing</h3>
                   <p class="text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
+                    See your dream space before it’s built! Our photorealistic 3D renders let you experience the final
+                    design virtually and make confident decisions.
                   </p>
                 </div>
-
               </div>
             </li>
 
@@ -340,37 +387,32 @@
 
             <li>
               <div class="features-card">
-
                 <div class="icon">
-                  <ion-icon name="code-slash-outline"></ion-icon>
+                  <ion-icon name="color-palette-outline"></ion-icon>
                 </div>
-
                 <div class="content">
-                  <h3 class="h3 title">Development</h3>
-
+                  <h3 class="h3 title">Interior Styling & Solutions</h3>
                   <p class="text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
+                    From minimalist to luxurious, we offer complete styling solutions—including furniture, lighting, and
+                    décor—to create a cohesive and breathtaking atmosphere.
                   </p>
                 </div>
-
               </div>
             </li>
 
             <li>
               <div class="features-card">
-
                 <div class="icon">
-                  <ion-icon name="rocket-outline"></ion-icon>
+                  <ion-icon name="home-outline"></ion-icon>
                 </div>
-
                 <div class="content">
-                  <h3 class="h3 title">Testing & Lunching</h3>
-
+                  <h3 class="h3 title">Turnkey Execution</h3>
                   <p class="text">
-                    Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.
+                    We handle the entire process—from concept to completion—ensuring flawless execution and timely
+                    delivery
+                    of your dream space with minimal stress.
                   </p>
                 </div>
-
               </div>
             </li>
 
@@ -381,12 +423,295 @@
 
 
 
+      <!-- 
+        - #TESTIMONIALS
+      -->
+
+      <section class="section section-divider white testi" id="testimonials">
+        <div class="container">
+
+          <p class="section-subtitle">Client Testimonials</p>
+
+          <h2 class="h2 section-title underline">
+            Our Customers <span class="span">Reviews</span>
+          </h2>
+
+          <p class="section-text" style="padding-top: 10px;">
+            Hear from our delighted clients who have transformed their homes and offices with our creative designs,
+            attention to detail, and seamless project execution.
+          </p>
+          <div class="review-btn-wrapper">
+            <a href="https://g.page/r/CTqS_yHam8H5EAE/review" target="_blank" class="review-btn">
+              <ion-icon name="logo-google"></ion-icon>
+              <span>Review Us on Google</span>
+              <ion-icon name="link"></ion-icon>
+            </a>
+          </div>
+
+
+          <ul class="testi-list has-scrollbar">
+
+            <!-- Testimonial 1 -->
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+                  <!-- <figure class="avatar">
+                    <img src="./assets/images/profile1.jpeg" width="80" height="80" loading="lazy" alt="Shruti & Arjun">
+                  </figure>
+ -->
+                  <div>
+                    <h3 class="h4 testi-name">Shruti & Arjun</h3>
+                    <p class="testi-title">Saswad</p>
+                  </div>
+                </div>
+
+                <blockquote class="testi-text">
+                  "We felt heard, understood, and guided at every step. SacredSpace_Interiors didn’t just design our
+                  house — they made it our home."
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- Testimonial 2 -->
+            <li class="testi-item">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+                  <!-- <figure class="avatar">
+                    <img src="./assets/images/profile2.jpg" width="80" height="80" loading="lazy" alt="Ramesh D.">
+                  </figure> -->
+
+                  <div>
+                    <h3 class="h4 testi-name">Ramesh D.</h3>
+                    <p class="testi-title">Jejuri</p>
+                  </div>
+                </div>
+
+                <blockquote class="testi-text">
+                  "The attention to detail and the personal involvement from the owner was truly impressive. Highly
+                  recommended!"
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+
+
+            <!-- Testimonial 3 (Marathi) -->
+            <li class="testi-item">
+              <div class="testi-card">
+                <div class="profile-wrapper">
+                  <!-- <figure class="avatar">
+                    <img src="./assets/images/profile8.jpg" width="80" height="80" loading="lazy" alt="अमोल पाटील">
+                  </figure> -->
+                  <div>
+                    <h3 class="h4 testi-name">Amol Patil</h3>
+                    <p class="testi-title">Saswad</p>
+                  </div>
+                </div>
+                <blockquote class="testi-text">
+                  "आमच्या घरासाठी SacredSpace_Interiors ने उत्कृष्ट सेवा दिली. प्रत्येक छोट्या-मोठ्या गोष्टीत त्यांनी
+                  बारकाईने काम केलं. त्यांचा डिझाईन खूप सुंदर आणि आधुनिक आहे. त्यांची टीम नेहमी वेळेवर आली आणि काम
+                  व्यवस्थित पूर्ण केलं. या अनुभवामुळे आम्ही त्यांना नक्कीच शिफारस करू."
+                </blockquote>
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon
+                    name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </li>
+
+
+            <!-- Testimonial 4 -->
+
+            <li class="testi-item hidden-testimonial">
+              <div class="testi-card">
+                <div class="profile-wrapper">
+                  <!-- <figure class="avatar">
+                    <img src="./assets/images/profile4.jpg" width="80" height="80" loading="lazy" alt="Nilesh Pawar">
+                  </figure> -->
+                  <div>
+                    <h3 class="h4 testi-name">Nilesh Pawar</h3>
+                    <p class="testi-title">Hadapsar, Pune</p>
+                  </div>
+                </div>
+                <blockquote class="testi-text">
+                  "From concept to completion, the team handled everything flawlessly. They truly understood our style
+                  and delivered beyond expectations."
+                </blockquote>
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon
+                    name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </li>
+
+            <!-- Testimonial 5 -->
+            <li class="testi-item hidden-testimonial">
+              <div class="testi-card">
+                <div class="profile-wrapper">
+                  <!-- <figure class="avatar">
+                    <img src="./assets/images/profile5.jpg" width="80" height="80" loading="lazy" alt="Rutuja Gokhale">
+                  </figure> -->
+                  <div>
+                    <h3 class="h4 testi-name">Rutuja Gokhale</h3>
+                    <p class="testi-title">Bavdhan, Pune</p>
+                  </div>
+                </div>
+                <blockquote class="testi-text">
+                  "I got my 3BHK home designed by SacredSpace_Interiors and I must say, it was the best decision.
+                  Vrushantraje gave personal attention to every corner and executed the entire site with full
+                  dedication. The transformation was magical!"
+                </blockquote>
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon
+                    name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </li>
+
+            <!-- Testimonial 6 -->
+            <li class="testi-item hidden-testimonial">
+              <div class="testi-card">
+                <div class="profile-wrapper">
+                  <!-- <figure class="avatar">
+                    <img src="./assets/images/profile6.jpg" width="80" height="80" loading="lazy"
+                      alt="Aniket & Shraddha More">
+                  </figure> -->
+                  <div>
+                    <h3 class="h4 testi-name">Aniket & Shraddha More</h3>
+                    <p class="testi-title">Katraj, Pune</p>
+                  </div>
+                </div>
+                <blockquote class="testi-text">
+                  "SacredSpace_Interiors made our 2BHK home look luxurious yet functional. Vrushantraje was personally
+                  involved from the planning stage to the final touches. His dedication is truly inspiring!"
+                </blockquote>
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon
+                    name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </li>
+
+            <!-- Testimonial 7 -->
+            <li class="testi-item hidden-testimonial">
+              <div class="testi-card">
+                <div class="profile-wrapper">
+                  <!-- <figure class="avatar">
+                    <img src="./assets/images/profile7.jpg" width="80" height="80" loading="lazy"
+                      alt="Neha and Anand Patil">
+                  </figure> -->
+                  <div>
+                    <h3 class="h4 testi-name">Neha & Anand Patil</h3>
+                    <p class="testi-title">Magarpatta City, Pune</p>
+                  </div>
+                </div>
+                <blockquote class="testi-text">
+                  "Excellent service! They understood our lifestyle needs and customized every corner accordingly. Our
+                  home finally feels complete."
+                </blockquote>
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon
+                    name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </li>
+
+
+            <!-- Testimonial 8 -->
+            <li class="testi-item hidden-testimonial">
+              <div class="testi-card">
+
+                <div class="profile-wrapper">
+                  <!-- <figure class="avatar">
+                    <img src="./assets/images/profile3.jpeg" width="80" height="80" loading="lazy" alt="Kunal Jagtap">
+                  </figure> -->
+
+                  <div>
+                    <h3 class="h4 testi-name">Rahul & Pooja Shinde</h3>
+                    <p class="testi-title">Pimpri, Pune</p>
+                  </div>
+                </div>
+
+                <blockquote class="testi-text">
+                  "Excellent coordination and timely delivery. The interiors were thoughtfully designed and beautifully
+                  executed. Great attention to detail!"
+                </blockquote>
+
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+
+              </div>
+            </li>
+
+            <!-- Testimonial 9 (Marathi) -->
+            <li class="testi-item hidden-testimonial">
+              <div class="testi-card">
+                <div class="profile-wrapper">
+                  <!-- <figure class="avatar">
+                    <img src="./assets/images/profile9.jpg" width="80" height="80" loading="lazy" alt="सोनाली देशमुख">
+                  </figure> -->
+                  <div>
+                    <h3 class="h4 testi-name">Sonali Deshmukh</h3>
+                    <p class="testi-title">Kothrud, Pune</p>
+                  </div>
+                </div>
+                <blockquote class="testi-text">
+                  "SacredSpace_Interiors ने आमच्या घराचं डिझाईन अगदी स्वप्नवत केलं. त्यांनी रंगसंगती आणि लाईटिंगवर खास
+                  लक्ष दिलं, जे घराला एक वेगळाच लूक दिला. त्यांचा प्रोफेशनल आणि मैत्रीपूर्ण दृष्टिकोन खूप आवडला. वेळेवर
+                  काम पूर्ण केलं आणि बजेटमध्येच सगळं केलं. आम्ही त्यांच्याबरोबर काम करून अत्यंत समाधानी आहोत."
+                </blockquote>
+                <div class="rating-wrapper">
+                  <ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon
+                    name="star"></ion-icon><ion-icon name="star"></ion-icon><ion-icon name="star"></ion-icon>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+          <!-- <div class="testi-toggle-wrapper" style="text-align: center; margin-top: 20px;">
+            <button id="toggleTestimonials" class="btn">View More</button>
+          </div> -->
+          <div class="testi-toggle-wrapper">
+            <button id="toggleTestimonials" class="btn view-more-btn">
+              <span>View More</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+
+      </section>
+
 
 
       <!-- 
         - #BLOG
       -->
-
+      <!-- 
       <section class="section blog" id="blog">
         <div class="container">
 
@@ -590,14 +915,196 @@
 
         </div>
       </section>
+    -->
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="section section-divider white testi" id="gallery">
+        <div class="container">
+
+          <!-- <p class="section-subtitle">Client Testimonials</p> -->
+          <h2 class="h2 section-title underline">Photo Gallery</h2>
+
+
+          <!-- <h2 class="h2 section-title">Photo's From Travellers</h2> -->
+
+
+          <p class="section-text">
+            Explore our collection of stunning photos from various projects and clients.
+          </p>
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/p1.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/p2.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/p3.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/p4.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/p5.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item img-hidden">
+              <figure class="gallery-image">
+                <img src="./assets/images/p6.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image img-hidden">
+                <img src="./assets/images/p7.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image img-hidden">
+                <img src="./assets/images/p8.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image img-hidden">
+                <img src="./assets/images/p9.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image img-hidden">
+                <img src="./assets/images/p10.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image img-hidden">
+                <img src="./assets/images/p11.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image img-hidden">
+                <img src="./assets/images/p12.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image img-hidden">
+                <img src="./assets/images/p13.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image img-hidden">
+                <img src="./assets/images/p15.jpg" alt="Gallery image">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="gallery-image img-hidden">
+                <img src="./assets/images/p14.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+
+          </ul>
+
+          <div class="testi-toggle-wrapper">
+            <button id="toggleGallery" class="btn view-more-btn">
+              <span>View More</span>
+              <ion-icon name="chevron-down-outline"></ion-icon>
+            </button>
+          </div>
+        </div>
+
+        </div>
+      </section>
+
 
     </article>
   </main>
 
+  <!-- <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.1939413442665!2d73.86018279999999!3d18.520136000000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1836fb5495b%3A0xf9c19bda21ff923a!2sSacred%20Space%20Interiors!5e0!3m2!1sen!2sin!4v1747569744448!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+  <section class="cta" id="contact">
+    <!-- style="background-image: url('./assets/images/p14.jpg');  background-size: cover;background-position: center;background-repeat: no-repeat;position: relative;z-index: 1;" -->
+    <div class="container">
+
+      <div class="cta-content">
+        <!-- <p class="section-subtitle">Explore</p> -->
+
+        <h2 class="h2 section-title ">
+          We care about delivering results.</h2>
+
+        <p class="section-text">
+          Discover the power of personalized interior design services with SacredSpace Interiors.
+          Let’s work together to bring your dream space to life — beautifully and functionally.
+        </p>
+        <span style="display: flex; padding: 20px; gap: 20px;">
+          <a class="btn btn-primary" id="contact-btn1"
+            href="https://www.cognitoforms.com/Sacredspaceinteriors1/SACREDSPACEINTERIORSCLIENTINTAKEFORM"
+            target="_blank">
+            <ion-icon name="mail-outline"></ion-icon>
+            Intake Form of Firm
+          </a>
+
+          <a class="btn btn-primary" id="contact-btn2"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe01BSQ7j0nUjvkXMLeUK4fm-7x4Cu-pLsVpoM7vXp6eafjBw/viewform"
+            target="_blank">
+            <ion-icon name="mail-outline"></ion-icon>
+            Free Consultation
+          </a>
+
+        </span>
+
+      </div>
+
+      <form class="form" id="contact-form" action="https://api.web3forms.com/submit" method="POST">
+        <!-- Gaurav's Access Key -->
+        <input type="hidden" name="access_key" value="957fe4e5-0f08-46a0-b131-0ca98bda7f78" />
+        <!-- Client's Access Key -->
+        <!-- <input type="hidden" name="access_key" value="e31189fb-69f1-4ab6-a716-81360bd17168" /> -->
+        <input type="hidden" name="subject" value="New Contact Form Submission from SacredSpace_Interiors Website" />
+        <input type="hidden" name="from_name" value="Sacred Space Interiors" />
+        <!-- <input type="hidden" name="redirect" value="http://127.0.0.1:5500//thank-you.html" /> -->
+
+        <h2 style="color: rgb(241, 59, 66);">CONTACT US</h2>
+        <p type="Name:"><input type="text" name="name" id="name" placeholder="Write your name here.."></input></p>
+        <p type="Email:"><input type="email" name="email" id="email"
+            placeholder="Let us know how to contact you back.."></input></p>
+        <p type="mobile:"><input type="text" name="mobile" id="mobile" placeholder="Enter your Mobile Number.."></input>
+        </p>
+        <p type="Message:"><input type="text" name="message" id="message"
+            placeholder="What would you like to tell us.."></input></p>
+        <button type="submit">Send Message</button>
+        <div style="display: flex;">
+          <span class="fa fa-phone"></span>+91 7841070287
+          <span class="fa fa-envelope-o"></span>sacredspaceinterio@gmail.com
+        </div>
+      </form>
+    </div>
+  </section>
 
 
 
 
+  <!-- Elfsight Google Reviews | Untitled Google Reviews -->
+  <!-- <script src="https://static.elfsight.com/platform/platform.js" async></script>
+      <div class="elfsight-app-a84207ef-3361-4657-970d-aa401afc91c7" data-elfsight-app-lazy></div> -->
   <!-- 
     - #FOOTER
   -->
@@ -608,32 +1115,33 @@
       <div class="container">
 
         <div class="footer-brand">
-
-          <a href="#" class="logo">Desinic</a>
+          <img src="./assets/images/logo_name_png.png" width="350" loading="lazy" alt="Sacred Space Interiors Logo"
+            class="header-logo">
+          <!-- <a href="#" class="logo">Sacred Space Interiors</a> -->
 
           <p class="text">
-            Maecenas pellentesque placerat quam, in finibus nisl tincidunt sed. Aliquam magna augue, malesuada ut
-            feugiat eget,
-            cursus eget felis.
+            Transforming spaces with creativity and precision, SacredSpace Interiors brings your vision to life.
+            <br>
+            <strong>Contact us today for a consultation!</strong>
           </p>
 
           <ul class="social-list">
 
             <li>
-              <a href="#" class="social-link">
+              <a href="https://www.facebook.com/share/1AN5ftAGb5/" class="social-link">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
+              <a href="https://www.instagram.com/sacredspace_interiors?igsh=MTR3MXJueTY4cnhrdA==" class="social-link">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
             </li>
 
             <li>
-              <a href="#" class="social-link">
-                <ion-icon name="logo-twitter"></ion-icon>
+              <a href="https://wa.me/7841070287" class="social-link">
+                <ion-icon name="logo-whatsapp"></ion-icon>
               </a>
             </li>
 
@@ -648,28 +1156,31 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">Home</a>
+            <a href="#home" class="footer-link">Home</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">About Us</a>
+            <a href="#about" class="footer-link">About Us</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Services</a>
+            <a href="#services" class="footer-link">Services</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Team</a>
+            <a href="#testimonials" class="footer-link">Testimonials</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Blog</a>
+            <a href="#gallery" class="footer-link">Gallery</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer-link">Contact Us</a>
           </li>
 
         </ul>
 
-        <ul class="footer-list">
+        <!-- <ul class="footer-list">
 
           <li>
             <p class="footer-list-title">Our Services</p>
@@ -696,7 +1207,7 @@
           </li>
 
         </ul>
-
+-->
         <ul class="footer-list">
 
           <li>
@@ -704,13 +1215,15 @@
           </li>
 
           <li>
-            <a href="#" class="footer-link">FAQ</a>
+            <a href="https://www.cognitoforms.com/Sacredspaceinteriors1/SACREDSPACEINTERIORSCLIENTINTAKEFORM"
+              class="footer-link">Intake Form of Firm</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Portfolio</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe01BSQ7j0nUjvkXMLeUK4fm-7x4Cu-pLsVpoM7vXp6eafjBw/viewform"
+              class="footer-link">Free Consultation</a>
           </li>
-
+          <!-- 
           <li>
             <a href="#" class="footer-link">Privacy Policy</a>
           </li>
@@ -721,7 +1234,7 @@
 
           <li>
             <a href="#" class="footer-link">Support</a>
-          </li>
+          </li> -->
 
         </ul>
 
@@ -738,8 +1251,8 @@
             </div>
 
             <div>
-              <a href="tel:+2484214313" class="footer-item-link">+248-421-4313</a>
-              <a href="tel:+2486871365" class="footer-item-link">+248-687-1365</a>
+              <a href="tel:+917841070287" class="footer-item-link">+91 7841070287 </a>
+              <!-- <a href="tel:+2486871365" class="footer-item-link">+248-687-1365</a> -->
             </div>
 
           </li>
@@ -751,8 +1264,8 @@
             </div>
 
             <div>
-              <a href="mailto:info@desinic.com" class="footer-item-link">info@desinic.com</a>
-              <a href="mailto:help@desinic.com" class="footer-item-link">help@desinic.com</a>
+              <a href="mailto:sacredspaceinterio@gmail.com" class="footer-item-link">sacredspaceinterio@gmail.com</a>
+              <!-- <a href="mailto:help@desinic.com" class="footer-item-link">help@desinic.com</a> -->
             </div>
 
           </li>
@@ -764,7 +1277,7 @@
             </div>
 
             <address class="footer-item-link">
-              Pontiac, Michigan, United States of America
+              Pune , Maharashtra, India
             </address>
 
           </li>
@@ -774,9 +1287,10 @@
       </div>
     </div>
 
+
     <div class="footer-bottom">
       <p class="copyright">
-        &copy; 2022 <a href="#" class="copyright-link">codewithsadee</a>. All Right Reserved
+        &copy; 2025 <a href="#" class="copyright-link">SacredSpace Interiors</a>. All Right Reserved
       </p>
     </div>
 
